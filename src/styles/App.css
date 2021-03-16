@@ -1,0 +1,29 @@
+.App {
+  background-position: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+body {
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: overlay;
+}
+/* ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 90, 90);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+} */
+#root {
+  display: flex;
+  flex-direction: column;
+}
+

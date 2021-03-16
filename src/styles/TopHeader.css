@@ -1,0 +1,98 @@
+ion-icon {
+  font-size: 16px;
+}
+
+.icon {
+  border-radius:3px;
+  border: 0;
+  text-decoration: none;
+  align-items: center;
+  background-color: hsla(0,0%,100%,.3);
+  box-shadow: none;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  height: 2em;
+  line-height: 32px;
+  margin: 0 4px 0 0;
+  padding: 0 6px !important;
+  white-space: nowrap;
+}
+
+.icon-jpg {
+  display:flex;
+  width:2em;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icon:hover {
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+.trello-icon {
+  width: 6em;
+  justify-content: center;
+  align-items: center;
+}
+
+.trello-icon-container {
+  flex:2;
+  display:flex;
+  justify-content:center;
+}
+
+.Top-Header {
+  box-sizing: border-box;
+  display:flex;
+  background: rgba(248, 241, 241, 0.15);
+  background-color: rgba(0,0,0,.32);
+  color: grey;
+  padding: 6px;
+  min-height:40px;
+  max-height:40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Left-Container {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.Right-Container {
+  flex:1;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+:root {
+  --avatar-size: 27px;
+  /* change this value anything, e.g., 100px, 10rem, etc. */
+}
+
+.circle {
+  background-color: rgb(9, 31, 230);
+  border-radius: 50%;
+  height: var(--avatar-size);
+  text-align: center;
+  width: var(--avatar-size);
+}
+
+.initials {
+  color:white;
+  background-color:none;
+  font-size: calc(var(--avatar-size) / 2); /* 50% of parent */
+  line-height: 0;
+  position: relative;
+  top: calc(var(--avatar-size) / 4); /* 25% of parent */
+}

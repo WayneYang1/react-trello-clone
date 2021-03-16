@@ -1,0 +1,110 @@
+ion-icon {
+  font-size: 16px;
+}
+
+.icon {
+  border-radius:3px;
+  border: 0;
+  text-decoration: none;
+  background-color: hsla(0,0%,100%,.3);
+  box-shadow: none;
+  color: #fff;
+  display: flex;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0 4px 0 0;
+  padding: 0 6px !important;
+}
+
+.icon-jpg {
+  display:flex;
+  width:2em;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icon:hover {
+  background-color: rgba(255, 255, 255, 0.432);
+}
+
+.trillo-icon {
+  display: flex;
+  width: 6em;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bottom-Header {
+  box-sizing: border-box;
+  display:flex;
+  color: grey;
+  padding: 6px;
+  min-height:40px;
+  max-height:40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.normal-icon-font {
+  font-weight:100;
+}
+
+.large-font {
+  font-size:20px;
+  font-weight:700;
+}
+
+.divider {
+  position: relative;
+  border-right: 1px solid grey;
+  height: 20px;
+  top: 3px;
+}
+
+.board-header-divider {
+  float: left;
+  border-left: 1px solid hsla(0,0%,100%,.24);
+  height: 16px;
+  margin: 8px 8px 12px 4px;
+}
+
+.bubble {
+  font-size: 12px;
+  background: hsla(0,0%,100%,.2);
+  border-radius:12px;
+  margin-left:8px;
+  padding:2px 6px;
+}
+
+:root {
+  --avatar-size: 27px;
+  /* change this value anything, e.g., 100px, 10rem, etc. */
+}
+
+.circle {
+  background-color: rgb(9, 31, 230);
+  border-radius: 50%;
+  height: var(--avatar-size);
+  text-align: center;
+  width: var(--avatar-size);
+  margin-right:10px;
+}
+
+.initials {
+  color:white;
+  background-color:none;
+  font-size: calc(var(--avatar-size) / 2); /* 50% of parent */
+  line-height: 0;
+  position: relative;
+  top: calc(var(--avatar-size) / 4); /* 25% of parent */
+}
+
+.Right-Container {
+  flex:1;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
